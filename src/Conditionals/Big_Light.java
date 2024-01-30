@@ -1,8 +1,8 @@
-package Conditions;
+package Conditionals;
 
 import java.util.Scanner;
 
-public class BigLight {
+public class Big_Light {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int h1 = sc.nextInt();
@@ -11,7 +11,6 @@ public class BigLight {
         int v2 = sc.nextInt();
         int num = h1-h2;
         int den = v2 - v1;
-
         System.out.println((num % den == 0));
     }
 }
